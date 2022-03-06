@@ -89,7 +89,7 @@ function draw() {
 
     kangaroo.collide(invisibleGround);
     //write a condition for gamestate should end.
-    if(obstaclesGroup.IsTouching(kangaroo)){
+    if(obstaclesGroup.isTouching(kangaroo)){
       collidedSound.play();
       gameState = END;
     }
